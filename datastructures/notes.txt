@@ -1,0 +1,75 @@
+what is data structures?
+program - set of instructions on data
+structures - organization of data
+
+program code does work on data - this is done by cpu
+
+list of data structures:-
+category 1 - how data can be arranged
+array
+matrix
+linked list
+category 2 - how data can be utilized
+stack 
+queue
+tree
+graph
+hash
+category 3 - algorithms
+recursion 
+sorting
+
+
+main memory split
+1. text/code segment - readonly compiled code
+2. data segment - initialized and uninitialized static variables
+3. heap - dynamic memory allocation - grows upwards to higher memory addresses
+4. stack - function call management including parameters and var - grows downwards
+
++-----------------------+
+|         Stack         |
+|    (grows downwards)  |
++-----------------------+
+|           |           |
+|           V           |
+|    ----------------    |
+|     Command Line      |
+|       Arguments       |
+|    ----------------    |
+|       Environment     |
+|      Variables        |
+|    ----------------    |
+|           |           |
+|           V           |
+|       Reserved        |
+|       (unused)        |
+|    ----------------    |
+|        Heap           |
+|    (grows upwards)    |
++-----------------------+
+|  Uninitialized Data   |
+|      (BSS Segment)    |
++-----------------------+
+|    Initialized Data   |
+|      (Data Segment)   |
++-----------------------+
+|      Code Segment     |
+|     (Text Segment)    |
++-----------------------+
+|    Operating System   |
+|        Reserved       |
++-----------------------+
+|       Hardware        |
+|       Reserved        |
++-----------------------+
+
+array
+- use sizeof for array length
+
+structures
+- size of struct is total size of all attributes
+
+pointers
+- to access heap memory (heap memory can't be accessed directly)
+- access file on hard disk, keyboard etc that are external to program
+- program can access only code segment and stack
