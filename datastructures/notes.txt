@@ -65,11 +65,14 @@ main memory split
 
 array
 - use sizeof for array length
+- always passed by reference. cannot be passed by value on its own
 
 structures
 - size of struct is total size of all attributes
+- can be passed by value
 
 pointers
 - to access heap memory (heap memory can't be accessed directly)
 - access file on hard disk, keyboard etc that are external to program
 - program can access only code segment and stack
+
