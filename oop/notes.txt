@@ -1,0 +1,28 @@
+objects - instance of classes that can encapsulate behaviour and attributes
+objects are like proper nouns (unique instance of the blueprint)
+classes are like common nouns (blueprint)
+
+CONCEPTS:-
+
+ENCAPSULATION
+acces modifiers:-
+1. private - accessible only within class
+2. protected - accesible only within class and derived classes
+3. public - accesible from everywhere within program
+
+INHERITANCE
+allows code reusability and hierarchial classification
+
+POLYMORPHISM
+method overriding - runtime POLYMORPHISM
+method overloading - compile time POLYMORPHISM
+
+method overloading example - using the same function name to different things based on parameters
+method overriding example - using the same function from a parent class to do things in the child class differently
+
+overloading - happens with or without inheritance
+overriding - happens only in inheritance
+
+ABSTRACTION
+hiding complexity 
+use "virtual" keyword
