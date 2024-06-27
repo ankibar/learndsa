@@ -76,3 +76,12 @@ pointers
 - access file on hard disk, keyboard etc that are external to program
 - program can access only code segment and stack
 
+linked list 
+- each node in heap compared to contigous memory of array in data sections or stack sections
+- reverse linked list and reverse print of nodes possible using recursion (note recursion stores each step in stack)
+- can use fast and slow pointers
+
+stack
+- main functions are push(), pop(), top() and isempty()
+
+    

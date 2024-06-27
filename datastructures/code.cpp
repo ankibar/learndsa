@@ -91,6 +91,25 @@ using namespace std;
 //     return a+b;
 // }
 
+//stack
+void push(int arr[], int top, int value){
+    int n = sizeof(arr)/sizeof(int);
+    if(top == n){
+        cout << "stack overflow";
+        return;
+    }
+    arr[++top] = value;
+}
+
+void pop(int arr[], int top, int value){
+    int n = sizeof(arr)/sizeof(int);
+    if(top == -1){
+       cout << "already empty";
+       return;
+    }
+    top--;
+}
+
 int main(){
     // // arrays in c
     // int a[5] = {1,2,3,4,5};
@@ -187,6 +206,10 @@ int main(){
     // Arithmetic<int> objab(10,5);
     // printf("%d", objab.add());
 
+    //stack
+    int n;
+    cin>>n;
+    cout<<"\n";
     
 
     return 0;
